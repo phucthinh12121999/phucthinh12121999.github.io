@@ -14,11 +14,6 @@
 </head>
 
 <body>
-    <div class="page-preloader" style="transform: translateY(-100%);">
-        <div class="preloader-container">
-            <img src="cakes.png" alt="">
-        </div>
-    </div>
     <div class="page-content full-width-slider" style="opacity: 1;">
         <header>
             <div class="header-wrapper back-image is-paralax">
@@ -28,7 +23,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="logo-block l-al-center">
-                                <img class="logo" src="logo.png" alt="">
+                                <img class="logo" src="image/logo.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -39,20 +34,20 @@
                                     <div class="col-sm-9 col-xs-6">
                                         <nav>
                                             <ul class="menu-list">
-                                                <li class="menu-item">
-                                                    <a href="#services">Services</a>
+                                                <li>
+                                                  <a>Services</a>
                                                 </li>
-                                                <li class="menu-item">
-                                                    <a href="#products">Products</a>
+                                                <li>
+                                                    <a>Products</a>
                                                 </li>
-                                                <li class="menu-item">
-                                                    <a href="#team">Our team</a>
+                                                <li>
+                                                    <a>Our team</a>
                                                 </li>
-                                                <li class="menu-item">
-                                                    <a href="#reviews">Reviews</a>
+                                                <li>
+                                                    <a>Reviews</a>
                                                 </li>
-                                                <li class="menu-item">
-                                                    <a href="#contacts">Contacts</a>
+                                                <li>
+                                                    <a>Contacts</a>
                                                 </li>
                                             </ul>
                                         </nav>
@@ -105,32 +100,29 @@
                        
                     </div>
                     <div class="slider-buttons">
-                         <div style="text-align: center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
+<div style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
 </div>
-                    </div>
-                  <div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 2</div>
-  <img src="slide5.jpg" style="width: 100%">
 </div>
+<div class="slideshow-container">
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 2</div>
-  <img src="slide4.jpg" style="width:100%">
-                      </div>
+    <div class="mySlides fade">
+        <img src="image/slide5.jpg" style="width: 100%">
+    </div>
+
+    <div class="mySlides fade"> <img src="image/slide4.jpg" style="width:100%">
+    </div>
 </div>
 <br>
 
 
-               <script>
-var slideIndex = 1;
-showSlides(slideIndex);
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
 }
 
 function currentSlide(n) {

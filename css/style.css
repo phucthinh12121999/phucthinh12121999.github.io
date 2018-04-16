@@ -323,3 +323,26 @@ h4, .h4, h5, .h5, h6, .h6 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+menu-list li:hover a:hover {
+    color: #83cfd7;
+     opacity: 0.5;
+}
+a {
+    background-color: transparent;
+}
+.menu-list li a {
+    font-size: 22px;
+    font-family: 'Dancing Script',cursive;
+    text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+    transition: color .25s ease;
+        transition-property: color;
+        transition-duration: 0.25s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+}
+a {
+    background-color: transparent;
+}
