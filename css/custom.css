@@ -1,0 +1,13 @@
+.carousel-indicators li {
+    position: relative;
+    cursor: pointer;
+    -webkit-box-flex: 0;
+    width: 15px;
+    height: 15px;
+    margin-right: 0;
+    margin-left: 4px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0s ease;
+    border-radius: 50%;
+}
