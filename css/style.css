@@ -131,7 +131,7 @@ p, span, li, button, input, a {
     color: #898989;
     font-family: 'Dancing Script',cursive;
     text-decoration: none;
-    transition: all 0s;
+    transition: color .25s ease;
 }
 .nav-block {
     border-top: 1px dashed #e6e6e6;
@@ -325,10 +325,7 @@ h4, .h4, h5, .h5, h6, .h6 {
 li:hover a {
     color: aqua;
    cursor: pointer;
-   transition: all 0.5s;
-}
-a{
-    background-color: transparent;
+   transition: ease 0.5s;
 }
 ::before, ::after {
     -webkit-box-sizing: border-box;
@@ -337,6 +334,83 @@ a{
         box-sizing: border-box;
     box-sizing: border-box;
 }
-a:active, a:hover {
-    outline: 0;
+.services-wrapper {
+    padding-bottom: 67px;
+}
+.l-section {
+    padding: 80px 0;
+        padding-top: 80px;
+        padding-right: 0px;
+        padding-left: 0px;
+}
+.clearfix::before, .clearfix::after, .dl-horizontal dd::before, .dl-horizontal dd::after, .container::before, .container::after, .container-fluid::before, .container-fluid::after, .row::before, .row::after {
+    content: " ";
+    display: table;
+}
+.clearfix::after, .dl-horizontal dd::after, .container::after, .container-fluid::after, .row::after {
+    clear: both;
+}
+.section-title-container {
+    margin-top: -6px;
+}
+.l-after::after {
+    position: absolute;
+    content: '';
+    display: block;
+}
+.section-title {
+    font-size: 45px;
+    color: #e07dc0;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 55px;
+    margin-top: 0;
+}
+.l-after {
+    position: relative;
+}
+.section-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #a7a7a7;
+    font-style: italic;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 35px;
+    padding: 0 20px;
+}
+.col-md-3 {
+    width: 25%;
+}
+
+.boxes-icon .icon {
+    font-size: 32px;
+    line-height: 1;
+    color: #83cfd7;
+    vertical-align: middle;
+}
+.boxes-title {
+    font-size: 14px;
+    color: #898989;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.boxes-text {
+    font-size: 12px;
+    font-style: italic;
+    color: #aeaeae;
+    line-height: 20px;
+}
+p {
+    margin: 0 0 10px;
+}
+.products-wrapper {
+    padding-bottom: 106px;
+}
+.products-wrapper {
+    background-color: #fafafa;
+}
+l-section {
+    padding: 80px 0;
 }
